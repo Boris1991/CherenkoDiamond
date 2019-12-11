@@ -1,0 +1,12 @@
+/run/verbose 2
+/run/initialize //run/geometryModified 
+s/type Point
+/gps/pos/centre 0 0 -4 cm
+/gps/direction 0 0 1
+/gps/ene/type Arb
+/gps/hist/type arb
+/gps/hist/file Gen1.dat
+/gps/hist/inter Lin
+/B5/detector/targetAngle 0 deg
+/run/geometryModified
+/run/beamOn 200000
